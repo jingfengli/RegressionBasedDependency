@@ -1,7 +1,8 @@
 # RegressionBasedDependency
-MATLAB code for regression based dependency analysis
+MATLAB code for regression based dependency 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Results are published in 'Li J, Bentley W, Snyder L. Neural Correlates of Functional Connectivity. Organization for Human Brain Mapping, 2015.'
-
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 The goal is to address whether one process drives the correlation between two other signals. Ideally, one should extract just the shared (correlated) component, and then using causality analysis (e.g., Granger causality analysis or transfer entropy) to determine whether the process of interest drives that correlated component. Methods extracting the correlated component require a large number of correlated signals as input to operate properly. With small amount of correlated signals, the extracted component will necessarily include a substantial amount of non-correlated signal, regardless of the precise method used.
 
 Regression based dependency analysis circumvents the need of extracting the correlated component. It estimates the extent to which regressing out the signal can diminish the correlation.  
