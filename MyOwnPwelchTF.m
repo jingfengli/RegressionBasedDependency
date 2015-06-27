@@ -3,7 +3,7 @@ function [TF,TFinTime,Res,Tres]= MyOwnPwelchTF(x,y,swindow,noverlap,nfft,Switch,
 %   1. Use p-welch method to compute the transfer function from x to y
 %   2. Transfer function is then used to computed the prediction of y based on x
 %   3. Compute the residual y, after regressing out the prediction.
-% Switch is not used now. 
+% Switch is not used now. With optional multitaper methods.
 % 
 % Example:
 %   Setting up trouble shooting scrips.
